@@ -10,17 +10,17 @@ public class CoffeeClient {
 
     public static void main(String[] args) {
         CoffeeTemplate coffeeType = new MochaCoffee();
-        starbuzz.prepareMochaCoffee();
+        coffeeType.prepareMochaCoffee();
 
         System.out.println("********************");
 
         coffeeType = new CapuccinoCoffee();
-        starbuzz.prepareCapuccinoCoffee();
+        coffeeType.prepareCapuccinoCoffee();
 
         System.out.println("********************");
 
         coffeeType = new AmericanoCoffee();
-        starbuzz.prepareAmericanoCoffee();
+        coffeeType.prepareAmericanoCoffee();
 
     }
 
