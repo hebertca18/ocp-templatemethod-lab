@@ -21,7 +21,7 @@ public class CoffeeMaker {
     public void prepareAmericanoCoffee() {
         boilWater();
         brewEspresso();
-        addIngredientsForCapuccino();
+        addIngredientsForAmericano();
         finalTouchForAmericano();
         System.out.println(">>Serving coffee");
     }
